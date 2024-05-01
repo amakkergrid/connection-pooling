@@ -6,9 +6,9 @@ import java.sql.SQLException;
 import java.time.LocalTime;
 
 public class Main {
-    private final static String url = "jdbc:postgresql://localhost:5432/prakumar";
-    private final static String password = "prakumar";
-    private final static String userName = "prakumar";
+    private final static String url = "jdbc:postgresql://localhost:5432/amakker";
+    private final static String password = "amakker";
+    private final static String userName = "amakker";
 
     private final static Object lock = new Object();
     public static void main(String[] args) throws SQLException, InterruptedException {
